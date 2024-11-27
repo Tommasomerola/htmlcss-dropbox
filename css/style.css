@@ -92,3 +92,20 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+.abbonamenti{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.column{
+    width: 30%;
+    height: 500px;
+    border: 2px solid ;
+}
+
+.piani{
+    display: flex;
+    justify-content: center;
+}
