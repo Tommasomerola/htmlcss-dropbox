@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+                        /* regole header */
+
+/* regole logo */
+
+#logo{
+    position: absolute; 
+    left: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    padding: 0 15px;
+}
+
+/* menu navigazione */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+
+.navigazione{
+    display: flex;
+}
+
+
+
+                        /* regole main */
+
+#sfondo{
+   background-color: rgb(180,208,230); 
+   min-height: 100px;
+}
