@@ -293,3 +293,74 @@ h1{
 .business-img-box img {
     width: 100%;
 }
+
+#our-customers {
+    margin: 10rem 0;
+}
+
+#our-customers a{
+    margin-top: 2rem;
+}
+
+#our-customers a {
+    color: #0061fe;
+}
+
+#our-customers a:hover {
+    text-decoration: underline;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#footer-container {
+    width: 70%;
+}
+
+#footer-container h3,
+#footer-container span,
+.footer-column ul li {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+
+#footer-links a {
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.918);
+    text-decoration: none;
+}
+
+#footer-links a:hover {
+    color: white;
+}
+
+#footer-bottom {
+    border-top: 1px solid white;
+    width: 10%;
+    padding-top: 5rem;
+    text-wrap: nowrap;
+}
+
+#footer-bottom span {
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.lang-select{
+    cursor: pointer;
+}
