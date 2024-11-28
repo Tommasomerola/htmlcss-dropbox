@@ -114,21 +114,78 @@ h1{
 .center{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
+}
+
+.bordo h2{
+    margin-bottom: 30px;
+}
+
+.bordo span{
+    margin-bottom: 20px;
 }
 
 .abbonamenti{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 60%;
 }
 
 .column{
     width: 30%;
-    height: 500px;
+    /* height: 500px; */
     border: 2px solid ;
+    
+}
+
+.pad-colonna{
+    padding: 0 20px;
 }
 
 .piani{
     display: flex;
     justify-content: center;
+    padding-top: 30px;
+}
+
+/* regole colonna */
+.head-colonna{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px;
+}
+
+
+
+.info-colonna h3{
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.prezzo-piano{
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.scritta-grigia{
+    margin-top:10px;
+    color: grey;
+}
+
+.list-colonna{
+    margin-top: 30px;
+}
+
+.list-colonna li{
+    margin: 5px;
+}
+
+.bottone-prova{
+    display: flex;
+    justify-content: center;
+}
+
+.scelta{
+    margin: 10px 0;
 }
