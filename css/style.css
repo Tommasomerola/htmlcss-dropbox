@@ -40,33 +40,66 @@ li{
 
                         /* regole main */
 
-#sfondo{
+/* regole jumbo */
+
+.jumbo{
    background-color: rgb(180,208,230); 
-   min-height: 100px;
+   width: 100%;
    display: flex;
     justify-content: center;  
 }
 
+.jumboconteiner{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.jumbo2{
+    width: 30%;
+}
+
+.spanjumbo{
+    display: block;
+}
+
+.jumbo3{
+    width: 70%;
+}
+
+.jumboimg{
+    max-width: 100%;
+}
+
+.jumbocontent{
+    display: flex;
+    width: 80%;
+}
+
+.jumbop{
+    font-size: 15px;
+    margin-bottom: 10%;
+    padding: 5px;
+}
+
+/* titolo jumbo */
+
 h1{
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 40px;
+    font-size: 70px;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
-.bordo{
-    width: 50%;
-    position: relative;
-     
+/* span jumbo */
+
+#spanj1{
+    font-size: 13px;
 }
 
-.didascalia{
-    
-    width: 50%;
+#spanj2{
+    font-size: 30px;
 }
 
-.paragrafo{
-    margin-top: 30px;
-}
+/* regole bottone */
 
 .button{
     margin-top: 15px;
@@ -76,17 +109,7 @@ h1{
     color: #fff;
 }
 
-.margin{
-    margin-top: 15px;
-}
-
-.img{
- 
- position: absolute;
- right: 0;
- top: 100px;
- 
-}
+                      /* regole abbonamenti */
 
 .center{
     display: flex;
