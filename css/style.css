@@ -268,3 +268,28 @@ h1{
     background-color: #3a86ff;
     text-decoration: none;
 }
+
+.box-business{
+    /* background-color: blanchedalmond; */
+    width: 30%;
+    
+}
+
+.conteiner-business{
+    width: 60%;
+}
+
+.business-card-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.business-img-box {
+    width: fit-content;
+}
+
+.business-img-box img {
+    width: 100%;
+}
